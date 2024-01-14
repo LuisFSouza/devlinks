@@ -45,7 +45,8 @@ body *{
     margin-right: auto;
     margin-left:auto;
     */
-    width:360px;
+    width:100%;
+    max-width: 588px;
     margin: 56px auto 0px;
 
 }
@@ -91,7 +92,6 @@ ul li a{
     font-weight: 500;
     transition: background 0.2s;
     gap: 10px;
-    align-items: center;
 }
 
 ul li a:hover{
