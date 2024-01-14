@@ -5,7 +5,7 @@
 
 ## :pushpin: About
 
-DevLinks is a link aggregator developed during the Discovery course offered by Rocketseat
+DevLinks is a link aggregator developed during the Discover course offered by Rocketseat
 
 ## :wrench: Languages
 
