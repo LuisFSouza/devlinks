@@ -32,6 +32,7 @@ body{
 
     /* background: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body *{
@@ -92,6 +93,7 @@ ul li a{
     font-weight: 500;
     transition: background 0.2s;
     gap: 10px;
+    align-items: center;
 }
 
 ul li a:hover{
@@ -158,4 +160,14 @@ footer{
 .light #switch button{
     right:0;
     left:initial;
+}
+
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light{
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
